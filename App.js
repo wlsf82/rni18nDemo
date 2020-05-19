@@ -6,7 +6,8 @@ import { SafeAreaView, StyleSheet, Text } from 'react-native'
 
 const translationGetters = {
   en: () => require('./src/translations/en.json'),
-  nl: () => require('./src/translations/nl.json')
+  nl: () => require('./src/translations/nl.json'),
+  pt: () => require('./src/translations/pt.json')
 }
 
 const translate = memoize(
